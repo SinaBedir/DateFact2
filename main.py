@@ -7,7 +7,7 @@ from home import Home
 from histroy import History
 from kivy.core.window import Window
 
-Window.size=(480, 800)
+# Window.size=(480, 800)
 Window.softinput_mode="below_target"
 
 class MainInterface(ScreenManager):
