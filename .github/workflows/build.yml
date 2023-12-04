@@ -12,6 +12,7 @@ jobs:
 
       # used to cache dependencies with a timeout
       - name: Get Date
+        uses: ArtemSBulgakov/buildozer-action@v1
         id: get-date
         run: |
           echo "::set-output name=date::$(/bin/date -u "+%Y%m%d")"
